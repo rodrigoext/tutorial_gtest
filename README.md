@@ -7,16 +7,16 @@ git clone https://github.com/google/googletest.git
 
 ##2. Install gtest
 ```
-cd googletest <br>
-cmake CMakeLists.txt <br>
-make <br>
-make install <br>
+cd googletest
+cmake CMakeLists.txt
+make
+make install
 ```
 
 ##3. Compile tests
 ```
-cd tutorial_gtest <br>
-cd tests <br>
-make <br>
+cd tutorial_gtest
+cd tests
+make
 ./runTests
 ```
