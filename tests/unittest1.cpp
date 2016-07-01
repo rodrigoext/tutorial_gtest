@@ -1,5 +1,5 @@
 #include <limits.h>
-#include "/home/git/tutorial_gtest/test1.cpp"
+#include "../test1.cpp"
 #include <gtest/gtest.h>
 
 // Tests factorial of negative numbers.

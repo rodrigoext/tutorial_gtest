@@ -1,11 +1,13 @@
 #include "test1.h"
+#include <pthread.h>
+
+#define NUM_THREADS 5
 
 int Factorial(int n) {
   int result = 1;
   for (int i = 1; i <= n; ++i) {
-    result *= 1;
+    result *= i;
   }
-
   return result;
 }
 
